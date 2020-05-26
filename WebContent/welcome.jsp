@@ -4,21 +4,24 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<title>Welcome Page</title>
 </head>
-<body>
+<body text="Black" bgcolor="Orange">
 	<%
 		if(session.getAttribute("username")==null)
 		{
 			response.sendRedirect("login.jsp");
 		}
 	%>
-	
-	WELCOME ${username}
-	
-	<a href="photos.jsp">Photos Here</a> 
+	<center>
+	<h1>WELCOME ${username}</h1> <br></center>
+	<h2>To get the photos click 
+	<a href="photos.jsp"> Get Photos </a>  <br><br><br>
+	<br>
+	To Know about us click here: <a href="aboutus.jsp"> Know Us </a><br><br><br> 
 	<form action="logout">
 		<input type="submit" value="LOGOUT">
-	</form>
+	</h2></form>
+	
 </body>
 </html>

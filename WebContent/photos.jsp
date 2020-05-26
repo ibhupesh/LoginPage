@@ -4,9 +4,9 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<title>Photos</title>
 </head>
-<body>
+<body text="Golden" bgcolor="Purple">
 	<%
 	response.setHeader("Cache-Control","no-cache,no-store,must-revealidate"); //HTTP 1.1
 	response.setHeader("Pragma","no-chache"); //HTTP 1.0
