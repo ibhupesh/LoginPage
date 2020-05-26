@@ -6,7 +6,7 @@
 <meta charset="ISO-8859-1">
 <title>About Us</title>
 </head>
-<body text="Crimson" bgcolor="LightBlue">
+<body text="pink" bgcolor="Black">
 	<center><h1>Basic Implementation of Servlets and JSPs by:</h1><br>
 	<h2>Bhupesh Saini<br>
 	B.Tech CSE <br>

@@ -6,12 +6,12 @@
 <meta charset="ISO-8859-1">
 <title>Login Page</title>
 </head>
-<body text="orange" bgcolor="black">
-	<h2><form action="Login" method="post">
+<body text="orange" bgcolor="black"><br><br><br><br><br>
+	<center><h2><form action="Login" method="post">
 		Enter Username: <input type="text" name="uname"><br>
 		Enter Password: <input type="password" name="pass"><br>
 		<input type="submit" value="Login">
 	</h2>	
-	</form>
+	</form></center>
 </body>
 </html>
