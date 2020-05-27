@@ -14,14 +14,16 @@
 		}
 	%>
 	<center>
-	<h1>WELCOME ${username}</h1> <br></center>
+	<h1>WELCOME,  ${username} To servlet and JSPs implementation web Application</h1> <br>
 	<h2>To get the photos click 
 	<a href="photos.jsp"> Get Photos </a>  <br><br><br>
 	<br>
 	To Know about us click here: <a href="aboutus.jsp"> Know Us </a><br><br><br> 
 	<form action="logout">
 		<input type="submit" value="LOGOUT">
-	</h2></form>
-	
+	</form> <br><br>
+	<form action="Show">
+		<input type="submit" value="Show Registered Users">
+	</h2></form></center>
 </body>
 </html>
