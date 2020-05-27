@@ -17,3 +17,8 @@ been made public.
 
 setHeader method has been used to remove the cache so that user cant access the
 pages if logged out once.
+
+A MySql database has been connected to the project named as Login which contains
+the usernames and passwords of the allowed users.The databse is connected by 
+using a separate class named as LoginDao.java The username is checked in the 
+database by making the use of prepared statement to carry out the query. 
