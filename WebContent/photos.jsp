@@ -16,6 +16,7 @@
 			response.sendRedirect("login.jsp");
 		}
 	%>
-	<img src="C:\Users\ibhup\Pictures\sent\IMG_20181017_160146_HDR.jpg" alt="Punjabi University Patiala Logo">
+	<img src="https://upload.wikimedia.org/wikipedia/commons/1/1d/Punjabi_university%2C_patiala.jpg" width="560" height="315" >
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/mOLlhfxGhVk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </body>
 </html>

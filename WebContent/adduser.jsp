@@ -4,17 +4,13 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Login Page</title>
+<title>Insert title here</title>
 </head>
 <body text="orange" bgcolor="black"><br><br><br><br><br>
-	<center>
-	<h1> SIGN IN </h1><br><br><br><br>
-	<h2><form action="Login" method="post">
-		Enter Username: <input type="text" name="uname"><br>
+	<center><h2><form action="AddUser" method="post">
+		Enter Username: <input type="text" name="user"><br>
 		Enter Password: <input type="password" name="pass"><br>
-		<input type="submit" value="Login">
-		<br><br><br>
-		<a href="aboutus.jsp"> Know Us </a>
+		<input type="submit" value="Add New User">
 	</h2>	
 	</form></center>
 </body>
